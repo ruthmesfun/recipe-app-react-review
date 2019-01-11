@@ -3,13 +3,16 @@ import { Card, CardTitle } from 'react-materialize'
 import v4 from 'uuid'
 
 const Recipe = (props) => {
+
   return (
     <Card
       key={v4()}
-      header={<CardTitle key={v4()} image={/* recipe image here */} />}
-      title={/* recipe name here */}
-      onClick={/* add to my list or remove recipe from my list */}
-    />
+      header={<CardTitle key={v4()} image={props.recipe.strMealThumb} />}
+      title={props.recipe.strMeal}
+      onClick={() => {props.addOrDeleteRecipe(props.recipe)}}
+    >
+    {props.recipe.strMeal}
+  </Card>
   )
 }
 
