@@ -21,7 +21,7 @@ class Header extends React.Component {
 
         <div className='container'>
           <h5>Filter by Category:</h5>
-          <input type='text' onChange={this.handleChange}/>
+          <input type='text' onChange={this.handleChange} value={this.state.search} />
         </div>
       </Fragment>
     )
