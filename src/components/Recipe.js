@@ -3,7 +3,6 @@ import { Card, CardTitle } from 'react-materialize'
 import v4 from 'uuid'
 
 const Recipe = (props) => {
-  console.log(props)
   return (
     <Card
       key={v4()}
