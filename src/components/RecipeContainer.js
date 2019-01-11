@@ -1,6 +1,6 @@
 import React from 'react'
 import Recipe from './Recipe'
-import v4 from 'uuid' // another way of generating unique id's (useful for keys)
+import v4 from 'uuid' // another way of generating unique ids (useful for keys)
 
 class RecipeContainer extends React.Component {
   render() {

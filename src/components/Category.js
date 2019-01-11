@@ -8,7 +8,7 @@ const Category = (props) => {
       key={v4()}
       header={<CardTitle key={v4()} image={/* category image here */} />}
       title={/* category name here */}
-      actions={[<Button key={v4()} waves='light'>Find Recipes</Button>]}
+      actions={[<Button key={v4()} onClick={/* fetch for recipes */} waves='light'>Find Recipes</Button>]}
     >
       {/* category description here */}
     </Card>

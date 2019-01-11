@@ -6,6 +6,7 @@ class Header extends React.Component {
     return (
       <Fragment>
         <Navbar brand='Recipe App' right />
+
         <div className='container'>
           <h5>Filter by Category:</h5>
           <input type='text' />

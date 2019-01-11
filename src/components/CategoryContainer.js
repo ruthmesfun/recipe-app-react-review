@@ -1,6 +1,6 @@
 import React from 'react'
 import Category from './Category'
-import v4 from 'uuid' // another way of generating unique id's (useful for keys)
+import v4 from 'uuid' // another way of generating unique ids (useful for keys)
 
 class CategoryContainer extends React.Component {
   render() {
